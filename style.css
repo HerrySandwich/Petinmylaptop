@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+img{
+    margin-left: 30px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-family: Showcard Gothic;
+    font-size: large;
+    color: white;
+    background: springgreen;  
+    border-radius: 5px;
+    border-left-color: darkblue;
+    border-top-color: slateblue;
+    border-right-color: darkblue;
+    border-bottom-color: slateblue;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+::selection{
+    background-color: #4d4d4f;
+    color: white;
+}
