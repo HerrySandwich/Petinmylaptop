@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.dafontfree.net/embed/c2hvd2NhcmQtZ290aGljLXJlZ3VsYXImZGF0YS8xMy9zLzY1MzQ3L1NIT1dHLlRURg" rel="stylesheet" type="text/css"/>
+    <title>.Choose your pets.</title>
+    <link rel="stylesheet" href="Css/style3.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 class="header3">Choose your pets</h3>
+    <div class="petBox char1" onclick="chooseChar1()"><img src ="Img/char1-removebg-preview.png"><button class="chooseBtn">choose</button></div>
+    <div class="petBox char2" onclick="chooseChar2()"><img src ="Img/char2-removebg-preview.png"><button class="chooseBtn">choose</button></div>
+    <div class="petBox char3" onclick="chooseChar3()"><img src ="Img/char3-removebg-preview.png"><button class="chooseBtn">choose</button></div>
+    <button class="btn">i-feed</button><button class="btn">i-play</button><button class="btn">i-quit</button>
+
+</body>
+<script>
+    $(".background").hide
+    function chooseChar2(){
+        $(".char1").hide();
+        $(".char3").hide();
+        $(".chooseBtn").hide();
+        $(".header3").hide();
+        $(".background").show
+    }      
+    function chooseChar1(){
+        $(".char2").hide();
+        $(".char3").hide();
+        $(".chooseBtn").hide();
+        $(".header3").hide();
+        $(".background").show
+    }
+    function chooseChar3(){
+        $(".char1").hide();
+        $(".char2").hide();
+        $(".chooseBtn").hide();
+        $(".header3").hide();
+        $(".background").show
+    }
+</script>
+</html>
