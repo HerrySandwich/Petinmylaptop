@@ -27,12 +27,19 @@ p:hover{
     color: white;
 }
 .petBox{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    text-align: center;
+    align-items: center;
+}
+.petGroup{
+  display: flex;  
 }
 .petBox img{
     width: 100%;
+}
+.btnGroup{
+    width: 10%;
 }
 body{
     font-family: Showcard Gothic;
